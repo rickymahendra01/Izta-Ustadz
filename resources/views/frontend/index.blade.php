@@ -54,7 +54,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex d-lg-none">
-            <img class="img-fluid" width="256px" height="144px" src="{{asset('user/img/logo.png')}}" alt="">
+            <img class="img-fluid" width="256px" height="144px" src="{{asset('user/img/logo1.png')}}" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
