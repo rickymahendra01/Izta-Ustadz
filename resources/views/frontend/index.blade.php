@@ -61,21 +61,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="index.html" class="nav-item nav-link">Beranda</a>
                 <a href="about.html" class="nav-item nav-link">Al-Qur'an</a>
                 <a href="service.html" class="nav-item nav-link">Nasehat</a>
-                <a href="product.html" class="nav-item nav-link">Artikel</a>
+                <a href="product.html" class="nav-item nav-link">Tanya Jawab</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
                     <div class="dropdown-menu m-0">
                         <a href="blog.html" class="dropdown-item">Kajian</a>
                         <a href="detail.html" class="dropdown-item">Qurban</a>
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="feature.html" class="dropdown-item">Ramadhan</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact.html" class="nav-item nav-link">Kontak</a>
             </div>
         </div>
     </nav>
@@ -90,7 +88,7 @@
                     <img class="w-100" src="{{asset('user/img/carousel-1.jpg')}}" alt="Image">
                     <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
                         <div class="text-start p-5" style="max-width: 900px;">
-                            <h3 class="text-white">Assaamual'aikum</h3>
+                            <h3 class="text-white">Assamual'aikum</h3>
                             <h1 class="display-1 text-white mb-md-4">Izin Bertanya Ustadz</h1>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
                             <a href="" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
@@ -219,42 +217,6 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <div class="mb-3">
-                        <h6 class="text-primary text-uppercase">Services</h6>
-                        <h1 class="display-5">Organic Farm Services</h1>
-                    </div>
-                    <p class="mb-4">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita erat ipsum et lorem et sit sed stet labore</p>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light text-center p-5">
-                        <i class="fa fa-carrot display-1 text-primary mb-3"></i>
-                        <h4>Fresh Vegetables</h4>
-                        <p class="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light text-center p-5">
-                        <i class="fa fa-apple-alt display-1 text-primary mb-3"></i>
-                        <h4>Fresh Fruits</h4>
-                        <p class="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light text-center p-5">
-                        <i class="fa fa-dog display-1 text-primary mb-3"></i>
-                        <h4>Healty Cattle</h4>
-                        <p class="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light text-center p-5">
-                        <i class="fa fa-tractor display-1 text-primary mb-3"></i>
-                        <h4>Modern Truck</h4>
-                        <p class="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-5">
                         <i class="fa fa-seedling display-1 text-primary mb-3"></i>
@@ -413,83 +375,6 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="mx-auto text-center mb-5" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase">The Team</h6>
-                <h1 class="display-5">We Are Professional Organic Farmers</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-10">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="{{asset('user/img/team-1.jpg')}}" alt="">
-                                <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
-                                    <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-10">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="{{asset('user/img/team-2.jpg')}}" alt="">
-                                <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
-                                    <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-10">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="{{asset('user/img/team-3.jpg')}}" alt="">
-                                <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
-                                    <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
 
 
     <!-- Blog Start -->
